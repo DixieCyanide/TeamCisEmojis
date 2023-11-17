@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "teamcisemojis",
+	"version": "${version}",
+	"name": "TeamCISEmojis",
+	"description": "Adds TeamCIS discord emojis to your chat.",
+	"authors": [
+		"DixieCyanide"
+	],
+	"contact": {
+		"homepage": "https://github.com/DixieCyanide",
+		"sources": "https://github.com/DixieCyanide"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/teamcisemojis/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.github.dixiecyanide.TeamCISEmojisClient"
+		]
+	},
+	"mixins": [
+		"teamcisemojis.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.18.2",
+		"java": ">=17",
+		"fabric-api": "*",
+		"cloth-config": ">=6.3.81"
+	}
+}

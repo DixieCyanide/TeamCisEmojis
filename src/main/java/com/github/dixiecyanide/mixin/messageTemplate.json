@@ -1,0 +1,53 @@
+{
+    "translate":"chat.type.text",
+    "with":
+    [
+        {
+            "extra":
+            [
+            {
+                "color":"dark_red",
+                "text":"DixieCyanide"
+            }
+            ],
+        "text":""
+        },
+        {
+            "text":"qqq"
+        }
+    ]
+}
+
+{
+    "extra":
+    [
+    {
+        "color":"white",
+        "text":"["
+    },
+    {
+        "color":"gold",
+        "text":"Магазин"
+    },
+    {
+        "color":"white",
+        "text":"] "
+    },
+    {
+        "color":"dark_red",
+        "text":"DixieCyanide"
+    },
+    {
+        "text":": test"
+    }
+    ],
+    "text":""
+}
+
+{
+    "file":"myemotes:font/emotes/batchest.png",
+    "chars":[""],
+    "height":10,
+    "ascent":9,
+    "type":"bitmap"
+}
